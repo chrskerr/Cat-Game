@@ -1,0 +1,106 @@
+#container {
+  min-width: 100vh;
+  min-height: 100vh;
+  background-color: #81EAF5;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#cat-box {
+  min-width: 100vh;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: green;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+#speedo {
+  top: 0px;
+  left: 0px;
+  background-color: #FAC3F1;
+  position: absolute;
+  height: 40px;
+  width: 100%;
+  padding: 0px 5px;
+  z-index: 100;
+  color: black;
+  border: 1px solid darkgrey;
+  box-sizing: border-box;
+  display: block;
+}
+
+#speedoText {
+  padding: 0;
+  padding-top: 9px;
+  margin: 0;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+#cat-counter {
+  padding: 0;
+  padding-top: 9px;
+  margin: 0;
+  box-sizing: border-box;
+  display: inline-block;
+  text-align: right;
+  float: right;
+}
+
+button {
+  display: inline-block;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+#cheese {
+  width: 50px;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flippedCat {
+  transform: scale(-1, 1);
+  position: absolute;
+  height: 100px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.normalCat {
+  position: absolute;
+  height: 100px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flippedMouse {
+  width: 100px;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.normalMouse {
+  transform: scale(-1, 1);
+  width: 100px;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
